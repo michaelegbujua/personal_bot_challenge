@@ -24,7 +24,7 @@ MODEL = "qwen/qwen3.8-27b"  # confirm this exact ID in your Groq console
 #add a load_persona function to load the individual persona from persona.txt file
 path ="persona.txt"
 
-def load_persona(name, path):
+def load_persona(name, path=path):
     with open(path, "r", encoding="utf-8") as file:
         for line in file:
             line = line.strip()
