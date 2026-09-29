@@ -17,24 +17,8 @@ Three command-line chatbots powered by the Groq API. They share the same API key
 - Each bot sends its persona as a `system` message, then keeps the conversation history so it remembers earlier turns.
 - Requests go to Groq's OpenAI-compatible chat completions endpoint.
 
-## Setup
 
-1. Clone the repo and enter the folder:
-```bash
-   git clone https://github.com/michaelegbujua/personal_bot_challenge.git
-   cd personal_bot_challenge
-```
-2. Create and activate a virtual environment, then install dependencies:
-```bash
-   python -m venv venv
-   venv\Scripts\activate
-   pip install -r requirements.txt
-```
-3. Create a `.env` file in the project root:
-```
-   GROQ_API_KEY=your_key_here
-```
-   Get a key from the [Groq console](https://console.groq.com).
+
 
 ## Usage
 
